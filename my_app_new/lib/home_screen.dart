@@ -5,6 +5,17 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('flutter_developer.com'),
+      ),
+      body: const Center(
+        child: Text(
+          'Welcome to the Home Screen!',
+          style: TextStyle(fontSize: 24),
+        ),
+      ),
+    );
+      
   }
 }
