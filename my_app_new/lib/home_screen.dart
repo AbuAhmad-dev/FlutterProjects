@@ -1,5 +1,4 @@
 import 'dart:developer';
-
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -45,7 +44,7 @@ class HomeScreen extends StatelessWidget {
           ElevatedButton(
             style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
             onPressed: () {
-           log("explore more features");
+           log ("explore more features");
         },
 child: Text("explore more")),
         ],
