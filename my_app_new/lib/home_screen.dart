@@ -42,7 +42,7 @@ class HomeScreen extends StatelessWidget {
           },
            child: Text("start from here")),
           ElevatedButton(
-            style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
+            style: ElevatedButton.styleFrom(backgroundColor: const Color.fromARGB(255, 54, 244, 244)),
             onPressed: () {
            log ("explore more features");
         },
